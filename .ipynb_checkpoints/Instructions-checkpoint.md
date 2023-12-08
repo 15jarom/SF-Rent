@@ -1,12 +1,8 @@
-# SF-Rent: Homework 5 
-## Below are the instructions for creating a program that will show the relationship between neighborhoods, rent price, and sale price in the San Fransisco area. 
-
-
-## Housing Rental Analysis for San Francisco
+# Housing Rental Analysis for San Francisco
 
 In this challenge, your job is to use your data visualization skills, including aggregation, interactive visualizations, and geospatial analysis, to find properties in the San Francisco market that are viable investment opportunities.
 
-### Instructions
+## Instructions
 
 Use the `san_francisco_housing.ipynb` notebook to visualize and analyze the real-estate data.
 
@@ -24,7 +20,7 @@ The main task in this Challenge is to visualize and analyze the real-estate data
 
 * Compose your data story.
 
-#### Calculate and Plot the Housing Units per Year
+### Calculate and Plot the Housing Units per Year
 
 For this part of the assignment, use numerical and visual aggregation to calculate the number of housing units per year, and then visualize the results as a bar chart. To do so, complete the following steps:
 
@@ -42,7 +38,7 @@ For this part of the assignment, use numerical and visual aggregation to calcula
 
     * What’s the overall trend in housing units over the period that you’re analyzing?
 
-#### Calculate and Plot the Average Sale Prices per Square Foot
+### Calculate and Plot the Average Sale Prices per Square Foot
 
 For this part of the assignment, use numerical and visual aggregation to calculate the average prices per square foot, and then visualize the results as a bar chart. To do so, complete the following steps:
 
@@ -66,7 +62,7 @@ For this part of the assignment, use numerical and visual aggregation to calcula
 
     * If so, did the gross rent increase or decrease during that year?
 
-#### Compare the Average Sale Prices by Neighborhood
+### Compare the Average Sale Prices by Neighborhood
 
 For this part of the assignment, use interactive visualizations and widgets to explore the average sale price per square foot by neighborhood. To do so, complete the following steps:
 
@@ -86,7 +82,7 @@ For this part of the assignment, use interactive visualizations and widgets to e
 
     * For the Anza Vista neighborhood, is the average sale price per square foot for 2016 more or less than the price that’s listed for 2012? 
 
-#### Build an Interactive Neighborhood Map
+### Build an Interactive Neighborhood Map
 
 For this part of the assignment, explore the geospatial relationships in the data by using interactive visualizations with hvPlot and GeoViews. To build your map, use the `sfo_data_df` DataFrame (created during the initial import), which includes the neighborhood location data with the average prices. To do all this, complete the following steps:
 
@@ -113,7 +109,7 @@ Note that your resulting plot should appear similar to the following image:
 
     * Which neighborhood has the highest gross rent, and which has the highest sale price per square foot?
 
-#### Compose Your Data Story
+### Compose Your Data Story
 
 Based on the visualizations that you created, answer the following questions:
 
